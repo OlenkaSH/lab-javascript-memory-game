@@ -32,7 +32,7 @@ window.addEventListener('load', (event) => {
   memoryGame.cards.forEach((pic) => {
     html += `
       <div class="card" data-card-name="${pic.name}">
-        <div class="back" name="${pic.img}"></div>
+        <div class="back" name="${pic.img}"></div>+
         <div class="front" style="background: url(img/${pic.img}) no-repeat"></div>
       </div>
     `;
